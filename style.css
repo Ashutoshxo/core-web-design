@@ -1,0 +1,128 @@
+p{ 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:large; prefix: -moz-element(2);
+    color: #080035;
+    font-weight: 400;
+    font-style:italic;
+    text-align:calc(3);
+    text-decoration: double;
+    line-height: 2;
+    letter-spacing: 0pt;
+    word-spacing: 1em;
+    
+
+}
+
+
+h1{body {
+    font-family: 'gerinTane', serif;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px #aaa;
+  }
+}
+#built{
+    color: rgb(255, 127, 127);
+}
+#rgb{
+    color: rgb(0, 255, 136);
+}
+#no{color: #080035;}
+#student{color: rgb(119%,5%, 255%);}
+
+
+#box{
+    height:100px;
+    width:200px;
+    padding-top:30px;
+    border:20px solid rgb(98, 0, 255);
+    margin: 30px;
+    box-sizing: border-box;
+    box-shadow: 30px 30px 30px #303500;
+  background-color: #f0f0f0;
+}
+
+.game{
+    display: flex;
+    border: 2px dotted crimson;
+
+}
+.dash{border: dashed; color: #303500;}
+.soild{border: solid olive;
+}
+.double{ border: 6px double coral;}
+.groove{
+    border: 30px ghostwhite groove;
+}
+.ridge{
+    border: ridge cornflowerblue;
+}
+.inset{border: width10px;
+border: 20px inset crimson;}
+
+.outset{ border: 10px outset red;}
+div{
+    margin: 100px;
+    margin-bottom: 230px;
+    margin-left: 500px;
+    margin-right: 300px;
+
+}
+.new1{
+    padding: 30px;
+    padding-bottom: 50px;
+    border: 10px solid red;
+    margin: 100px;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+h3{
+    text-shadow: 3px 3px #303500;
+}
+
+body{
+    font-family: 'gerinTane', serif;
+    background-color: blueviolet;
+   
+    background-repeat: repeat-y;
+background-position: center;
+background-attachment: fixed;
+background-size: top;
+}
+img{
+    float: left;
+}
+.hello1{
+    float:center;
+    padding: 10px;
+    border: 20px solid olive;
+}
+.hello{
+    padding: 10px;
+    border: 20px solid red;
+}
+.hello3 {
+    float: left;
+    padding: 10px;
+    border: 20px solid olive;
+}
+.hello4{padding: 10px;
+    border: 20px solid red;
+    clear: left;
+
+}
+.pop{
+    position: relative;
+    width: 300px;
+    height: 30px;
+border: 5px double teal;
+padding: 10px;
+
+
+}
+p{
+    display: inline-flexbox;
+}
+ul{  border: double #080035;
+    padding: 40px;
+    display:inline-flex;
+}

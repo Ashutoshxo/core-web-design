@@ -1,0 +1,99 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+      .hello
+      {
+        background-color: aqua;
+        height: 700px;
+        width: 900px;
+        display: grid;
+        justify-content: space-around;
+       align-items: center;
+      
+        grid-template-columns: repeat(3, 1fr);
+        /*  grid- templte columns: 122px 122px 122px;
+        fr: display : represennt a fraction units of availbale space */
+        grid-template-rows: 122px 122px 122px ;
+        column-gap: 30px;
+        row-gap: 113px;
+
+
+     
+      }
+
+
+      .div1{
+        background-color: rgb(140, 0, 255);
+        padding: 20px;
+        text-align: center;
+      }
+            
+        
+    </style>
+</head>
+<body> 
+    <!--
+     mata quary
+     responsive web page
+     A set of pracices that allows web page to alter therir layout
+     and apperance to suit different screen width , hight , resoltion
+     media query
+     css media query is used to apply diffent styles based on device charateristcs such as width heght orientation 
+     and resulution
+     syntax @media media -type and  
+     
+     2. resposive image 
+     task <source media="LL"srcset="MainAfter.webp">
+     
+     
+     flexbox : it aims at providing an effective and easy way to align item in container 
+     or
+     effiecient way to provide a way to align item within container 
+     display flex
+     flex - direction
+     align item ; center
+      
+     <style>
+        .hello
+      { background-color: aquamarine;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap-reverse;
+       align-items:space-around;}
+
+
+      .div1{
+        background-color:rgb(0, 26, 255);
+        margin: 10px;
+        padding: 30px;
+        font-size: 25px;
+        width: 120px;
+        height: 122px;
+        color: aqua; </style>
+     
+
+     GRID
+     it is two dimensnal
+        grid-template-columns: 1fr 1fr 1fr;
+        grid gap colums  grid-template-columns:
+        grid-template-rows
+        just
+     -->
+
+     <H1> content</H1>
+     
+      <div class="hello">
+        <div class="div1"> section 1</div>
+        <div class="div1"> section 2</div>
+        <div class="div1"> section 3</div>
+        <div class="div1"> section 4 </div>
+        <div class="div1"> section 6 </div>
+      </div><div class="div1"> section 7</div>
+    
+    
+</body>
+</html>
